@@ -1,0 +1,24 @@
+.top {
+  background-image: url("/img/catalog/Rectangle29.jpg");
+  height: 400px;
+}
+
+.h1 {
+  margin-top: 127px;
+}
+
+.content-menu {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.content-menu__place {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+}/*# sourceMappingURL=catalog.css.map */

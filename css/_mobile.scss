@@ -1,0 +1,196 @@
+@media (max-width: 601px) {
+  .default-button {
+    font-size: 12px;
+  }
+
+  .top {
+    margin-bottom: 0;
+    background-position: center;
+  }
+
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .header {
+    height: unset;
+    padding-top: 50px;
+    border-bottom: none;
+
+    &__input {
+      display: none;
+    }
+
+    &__nav {
+      display: none;
+
+      &-mobile {
+        display: flex;
+        gap: 32px;
+      }
+    }
+  }
+
+  .logo {
+    width: 99px;
+  }
+
+  .h1 {
+    font-size: 48px;
+    text-align: center;
+    margin: 0;
+    margin-top: 46px;
+  }
+
+  .top-text {
+    &__slogan {
+      margin: 16px 0;
+      text-align: center;
+      font-size: 16px;
+    }
+  }
+
+  .link_focus {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .h2 {
+    font-size: 24px;
+    line-height: normal;
+    margin: 32px 0;
+  }
+
+  .for {
+    &__content {
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+    }
+
+    &__item {
+      font-size: 28px;
+      grid-column: span 4;
+      height: 375px;
+
+      &_big {
+        height: 244px;
+      }
+    }
+  }
+
+  .product {
+    width: 100%;
+
+    &-content {
+      row-gap: 32px;
+    }
+
+    &-box {
+      margin-bottom: 0;
+    }
+
+    &__name {
+      margin: 9px 0;
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    &__text {
+      line-height: 20px;
+      margin-bottom: 9px;
+    }
+
+    &__price-content {
+      justify-content: flex-start;
+      gap: 32px;
+    }
+
+    &__price {
+      font-size: 18px;
+    }
+  }
+
+  .link-box {
+    margin-top: 37px;
+    margin-bottom: 32px;
+  }
+
+  .footer {
+    &__info {
+      gap: 0;
+      justify-content: space-around;
+      width: 100%;
+    }
+
+    &__content {
+      gap: 46px;
+      justify-content: center;
+    }
+  }
+
+  // Каталог
+  .content-menu {
+    margin: 32px 0;
+    gap: 16px;
+  }
+
+  // Корзина
+  .cart {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 92px;
+
+    &__name-box {
+      display: none;
+    }
+
+    &__content {
+      grid-column: span 4;
+    }
+
+    &__item-img {
+      display: none;
+    }
+
+    &__item-info {
+      width: 100%;
+      max-width: 253px;
+
+      &__title {
+        font-size: 18px;
+      }
+
+      &__description {
+        font-size: 12px;
+      }
+
+      &__price {
+        font-size: 12px;
+      }
+    }
+
+    &__buttons {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__form {
+      grid-column: span 4;
+    }
+  }
+}
+
+@media (max-width: 356px) {
+  .h1 {
+    font-size: 32px;
+    line-height: normal;
+  }
+
+  .product {
+    &__price {
+      font-size: 14px;
+    }
+  }
+}
