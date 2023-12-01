@@ -45,7 +45,7 @@
 }
 
 .top {
-  background-image: url("./img/Rectangle15.jpg");
+  background-image: url("../img/Rectangle15.jpg");
   height: 735px;
   background-position: center;
   background-size: cover;
@@ -247,19 +247,19 @@
   grid-column: span 6;
 }
 .for__item_1 {
-  background-image: url("./img/Rectangle17.jpg");
+  background-image: url("../img/Rectangle17.jpg");
 }
 .for__item_2 {
-  background-image: url("./img/Rectangle18.jpg");
+  background-image: url("../img/Rectangle18.jpg");
 }
 .for__item_3 {
-  background-image: url("./img/Rectangle19.jpg");
+  background-image: url("../img/Rectangle19.jpg");
 }
 .for__item_4 {
-  background-image: url("./img/Rectangle20.jpg");
+  background-image: url("../img/Rectangle20.jpg");
 }
 .for__item_5 {
-  background-image: url("./img/Rectangle21.jpg");
+  background-image: url("../img/Rectangle21.jpg");
 }
 
 .product-box {
