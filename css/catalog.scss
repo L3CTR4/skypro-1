@@ -1,3 +1,5 @@
+@import "style";
+
 .top {
   background-image: url("../img/catalog/Rectangle29.jpg");
   height: 400px;
@@ -15,10 +17,35 @@
   margin-bottom: 40px;
 }
 
-.content-menu__place {
-  color: #000;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px; /* 200% */
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  list-style: none;
+
+  &__link a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__link + &__link::before {
+    content: "/";
+    font-weight: 40;
+    font-size: 16px;
+    color: #000;
+    padding: 0px 10px;
+
+    &:hover {
+      text-decoration: none !important;
+    }
+  }
 }
+
+@import "tablet";
+@import "mobile";

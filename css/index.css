@@ -473,49 +473,6 @@
   color: #fff;
 }
 
-.top {
-  background-image: url("../img/catalog/Rectangle29.jpg");
-  height: 400px;
-}
-
-.h1 {
-  margin-top: 127px;
-}
-
-.content-menu {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: space-between;
-  margin-bottom: 40px;
-}
-
-.breadcrumbs {
-  display: flex;
-  align-items: center;
-  list-style: none;
-}
-.breadcrumbs__link a {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  color: #000;
-  text-decoration: none;
-}
-.breadcrumbs__link a:hover {
-  text-decoration: underline;
-}
-.breadcrumbs__link + .breadcrumbs__link::before {
-  content: "/";
-  font-weight: 40;
-  font-size: 16px;
-  color: #000;
-  padding: 0px 10px;
-}
-.breadcrumbs__link + .breadcrumbs__link::before:hover {
-  text-decoration: none !important;
-}
-
 @media (max-width: 1201px) {
   .default-button_invert {
     background: #000;
@@ -718,4 +675,4 @@
   .product__price {
     font-size: 14px;
   }
-}/*# sourceMappingURL=catalog.css.map */
+}/*# sourceMappingURL=index.css.map */

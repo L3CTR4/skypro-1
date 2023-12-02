@@ -1,3 +1,5 @@
+@import "style";
+
 .top {
   background: url("../img/cart/Rectangle29.jpg");
   height: 400px;
@@ -28,11 +30,15 @@
   &__item {
     border-top: 1px #cacdd8 solid;
     padding-top: 26px;
-    padding-bottom: 32px;
+    margin-bottom: 32px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+  }
+
+  &__item-img {
+    align-self: center;
   }
 
   &__left {
@@ -45,7 +51,7 @@
     display: flex;
     flex-direction: column;
     gap: 14px;
-    width: 300px;
+    max-width: 276px;
 
     &__title {
       color: #000;
@@ -90,6 +96,9 @@
 
   &__buttons {
     margin-top: 50px;
+    display: flex;
+    gap: 7px;
+
     .default-button {
       padding: 10px 22px;
     }

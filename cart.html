@@ -6,7 +6,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/cart.css" />
     <title>Корзина. Интернет-магазин мебели</title>
   </head>
@@ -76,11 +75,11 @@
         </div>
       </div>
 
-      <form action="" class="cart__form">
+      <form class="cart__form">
         <h3 class="cart__form__title">Оформление заказа</h3>
-        <input class="cart__form__input" type="text" placeholder="Имя Фамилия" />
-        <input class="cart__form__input" type="text" placeholder="+ 7 904 000 80 80" />
-        <input class="cart__form__input" type="text" placeholder="Адрес доставки" />
+        <input required class="cart__form__input" type="text" placeholder="Имя Фамилия" />
+        <input required class="cart__form__input" type="text" placeholder="+ 7 904 000 80 80" />
+        <input required class="cart__form__input" type="text" placeholder="Адрес доставки" />
         <p class="cart__form__total-price">Итого: <strong>128 000 руб.</strong></p>
         <button class="default-button cart__form__button">Оформить заказ</button>
       </form>
@@ -90,6 +89,8 @@
       <h2 class="h2">Специальные предложения</h2>
       <div class="product-content">
         <div class="product">
+          <img class="product__action-button product__action-button_1" src="./img/product-heart.svg" alt="Добавить в избранное" />
+          <img class="product__action-button product__action-button_2" src="./img/product-shopping-bag.svg" alt="Добавить в корзину" />
           <img src="./img/Rectangle22.jpg" alt="" class="product__img" />
           <h3 class="product__name">Люстра VODA</h3>
           <p class="product__text">Основание из полированной нержавеющей стали, придает оригинальный парящий эффект.</p>
@@ -99,6 +100,8 @@
           </div>
         </div>
         <div class="product">
+          <img class="product__action-button product__action-button_1" src="./img/product-heart.svg" alt="Добавить в избранное" />
+          <img class="product__action-button product__action-button_2" src="./img/product-shopping-bag.svg" alt="Добавить в корзину" />
           <img src="./img/Rectangle23.jpg" alt="" class="product__img" />
           <h3 class="product__name">Диван RONALD</h3>
           <p class="product__text">Модель отличается простотой линий и форм, отсутствием броского декора.</p>
@@ -108,6 +111,8 @@
           </div>
         </div>
         <div class="product">
+          <img class="product__action-button product__action-button_1" src="./img/product-heart.svg" alt="Добавить в избранное" />
+          <img class="product__action-button product__action-button_2" src="./img/product-shopping-bag.svg" alt="Добавить в корзину" />
           <img src="./img/Rectangle24.jpg" alt="" class="product__img" />
           <h3 class="product__name">Комод VENT</h3>
           <p class="product__text">Европейский дуб - отличается особой прочностью и стабильностью.</p>

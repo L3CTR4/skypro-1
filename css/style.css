@@ -460,6 +460,10 @@
     border: 1px solid #000;
     font-size: 14px;
   }
+  .default-button_invert:hover, .default-button_invert:focus {
+    color: #000;
+    background: #fff;
+  }
   .center {
     padding-left: 24px;
     padding-right: 24px;
@@ -493,6 +497,12 @@
   }
 }
 @media (max-width: 601px) {
+  .h1 {
+    font-size: 48px;
+    text-align: center;
+    margin: 0;
+    margin-top: 98px;
+  }
   .default-button {
     font-size: 12px;
   }
@@ -522,10 +532,7 @@
   .logo {
     width: 99px;
   }
-  .h1 {
-    font-size: 48px;
-    text-align: center;
-    margin: 0;
+  .top-text__title {
     margin-top: 46px;
   }
   .top-text__slogan {
@@ -625,8 +632,13 @@
     font-size: 12px;
   }
   .cart__buttons {
-    display: flex;
-    justify-content: space-between;
+    gap: 14px;
+  }
+  .cart__buttons .default-button {
+    width: 100%;
+  }
+  .cart__buttons .default-button_invert {
+    padding: 11px 6px;
   }
   .cart__form {
     grid-column: span 4;
